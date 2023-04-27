@@ -19,11 +19,12 @@ module.exports = {
         baseDark2: "#1F1D2B",
         textLight: "#ABBBC2",
         bgGrey: "#2D303E",
+        bgButtons: "#F9F9F9",
       },
       fontFamily: {
         barlow: ["Barlow", ...defaultTheme.fontFamily.sans],
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

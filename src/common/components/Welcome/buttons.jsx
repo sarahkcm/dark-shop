@@ -6,7 +6,7 @@ const Buttons = ({ navigation }) => {
     <View className='px-6'>
       <View className='flex flex-col justify-center items-center w-12/12 pt-10'>
         <TouchableOpacity
-          onPress={() => navigation.navigate("CheckEmail")}
+          onPress={() => navigation.navigate("home")}
           className='bg-black rounded-md py-5 px-32 w-full '
         >
           <Text className={`text-white text-center font-bold text-sm `}>

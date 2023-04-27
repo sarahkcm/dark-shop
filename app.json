@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dark-food",
-    "slug": "dark-food",
+    "name": "ShopX",
+    "slug": "ShopX",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yourShopX.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8cdcb184-2fce-49d5-89aa-3ed27efce072"
+      }
     }
   }
 }

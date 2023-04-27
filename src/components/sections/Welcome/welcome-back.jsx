@@ -45,7 +45,6 @@ const WelcomeBack = () => {
             }`}
           >
             <TouchableOpacity
-              onPress={() => navigation.navigate("PasswordRecovery")}
             >
               <Text className='text-end text-sm text-gray-800 font-medium'>
                 Forget password?

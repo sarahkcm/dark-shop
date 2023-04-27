@@ -5,6 +5,7 @@ import SecondSlide from "../../screens/second-slide";
 import ThirdSlide from "../../screens/third-slide";
 import SignIn from "../../screens/sign-in";
 import SignUp from "../../screens/sign-up";
+import Home from "../../screens/home";
 
 const Stack = createNativeStackNavigator();
 
@@ -16,6 +17,7 @@ const StackNav = () => {
       <Stack.Screen name='third' component={ThirdSlide} />
       <Stack.Screen name='sign-in' component={SignIn} />
       <Stack.Screen name='sign-up' component={SignUp} />
+      <Stack.Screen name='home' component={Home} />
     </Stack.Navigator>
   );
 };
