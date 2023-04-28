@@ -5,6 +5,7 @@ import {
   ScrollView,
   StyleSheet,
   Platform,
+  TouchableOpacity,
 } from "react-native";
 import React from "react";
 import { ClothesData } from "../../../../common/constants/clothes";
@@ -37,14 +38,16 @@ const Clothes = () => {
                         Platform.OS === "ios" ? ` w-44` : ` w-40`
                       }  h-48 rounded-lg`}
                     />
-                    <Image
-                      source={{
-                        uri: "https://i.postimg.cc/ZRDfRPLj/heart-border.png",
-                      }}
-                      className={` ${
-                        Platform.OS === "ios" ? ` ` : ` `
-                      } w-14 h-14  absolute -bottom-[14%] -right-[4%]`}
-                    />
+                    <TouchableOpacity>
+                      <Image
+                        source={{
+                          uri: "https://i.postimg.cc/ZRDfRPLj/heart-border.png",
+                        }}
+                        className={` ${
+                          Platform.OS === "ios" ? ` ` : ` `
+                        } w-14 h-14 absolute -bottom-[14%] -right-[4%]`}
+                      />
+                    </TouchableOpacity>
                   </View>
                   <Rate quantityRated={quantityRated} />
                   <View className='pt-1'>

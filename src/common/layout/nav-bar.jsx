@@ -44,7 +44,7 @@ const NavBar = () => {
                     uri:
                       activeNavData === index ? iconActivate : iconDeactivate,
                   }}
-                  className='w-5 h-5'
+                  className='w-6 h-5'
                 />
                 <Text
                   className={` ${
