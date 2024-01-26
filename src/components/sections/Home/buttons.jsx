@@ -1,8 +1,8 @@
 import { View, Text, Image } from "react-native";
 import React from "react";
-const pathToAssetToVectors = "../../../../assets/image/vectors/";
 
 const Buttons = () => {
+  const pathToAssetToVectors = "../../../../assets/image/vectors/";
   return (
     <View className='px-6 '>
       <View className='bg-bgButtons flex flex-row justify-between '>
@@ -29,7 +29,7 @@ const Buttons = () => {
         </View>
         <View className='flex flex-row space-x-3 items-center justify-center'>
           <Image
-            source={require(pathToAssetToVectors + "view-vec.png")}
+            source={require(pathToAssetToVectors + "View-vec.png")}
             className='w-6 h-6'
           />
         </View>

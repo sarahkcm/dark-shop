@@ -5,8 +5,7 @@ import HomeComponent from "../components/sections/Home/home";
 import { useNavigation } from "@react-navigation/native";
 
 const Home = () => {
-  const navigation = useNavigation();
-
+  const navigation = useNavigation()
   return (
     <>
       <View className={`absolute bg-white bottom-0  w-screen h-[8%]`}>
